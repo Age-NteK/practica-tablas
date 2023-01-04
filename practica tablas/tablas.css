@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+width: 100%;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(to right, rgb(0 0 0 /.5), rgb(0 0 0 /.9)) ,url(bosque.jpg);
+background-size: cover;
+background-position: 0px -250px;
+background-attachment: fixed;
+}
+a {
+    display: inline-block;
+    padding:5px; 
+    margin: 32px 400px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(219, 170, 79);
+} 
+a h1:hover{
+   border: 5px solid rgb(219, 170, 79);
+} 
+a h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(219, 170, 79);
+}
+a h2 { 
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(219, 170, 79);
+}
+a p {
+    color: rgb(219, 170, 79);
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+main {
+    background-image: linear-gradient(to right, rgb(0 0 0 /.5), rgb(0 0 0 /.01)), url(verde.jpg);
+    background-size: cover;
+    background: linear-gradient(rgb (0 0 0 .5));
+    background-attachment: fixed;
+    opacity: .8;
+    color: whitesmoke;
+  
+}
+div.texto_main {
+    margin: 5px;
+    margin-top: 0px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+h2.subtitulo_parrafo{
+    color: whitesmoke;
+    font-size: 28px;
+    padding: 25px 0px;
+}
+p.parrafo_uno {
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 8px;
+    justify-content: center;
+}
+table {
+    text-align: center;
+    line-height: 30px;
+    background-image: linear-gradient(to right, rgb(0 0 0 /.5), rgb(0 0 0 /.5)), url(otoño.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(219, 170, 79);
+    background-color: rgb(233, 171, 100);
+}
+table caption {
+    background-color: rgb(238, 142, 32);
+    border: 2px solid orange;
+    padding: 10px;
+}
+table thead, tbody, tfoot {
+    border:2px solid rgb(206, 118, 17);
+}
+table thead {
+    padding: 60px;
+}
+table tr td {
+    padding: 10px;
+}
